@@ -1,0 +1,79 @@
+html{
+    background:linear-gradient(90deg,#0b006b,#03011d);
+    background-color: #00000000;
+}
+#inputFields{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin-top:100px;
+    gap:20px;
+}
+#location{
+    width:300px;
+    height:50px;
+    font-size:20px;
+    border-radius:5px;
+    padding-left:10px;
+    margin-top:20px;
+    margin-left:auto;
+}
+#location:focus{
+    outline:none;
+    border:5px dotted lightseagreen;
+}
+#fetchWeather{
+    width:150px;
+    height:40px;
+    font-size:20px;
+    border-radius:5px;
+    border:none;
+    margin-right:auto;
+    cursor:pointer;
+    background-color:#0b006b;
+    color:white;
+}
+#fetchWeather:hover{
+    background-color:#5555ff;
+    color:white;
+}
+#temp,#condition{
+    font-size:25px;
+    color:white;
+    margin-top:20px;
+    padding:10px;
+    border-radius:10px;
+    width:400px;
+    background-color:#0b006b;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+#condition{
+    background-size:cover;
+    background-position:center;
+}
+
+#temp:hover{
+    font-size:25px;
+    color:white;
+    background-color:#3b0066;
+    margin-top:20px;
+}
+#condition:hover{
+    font-size:25px;
+    color:white;
+    background-color:#3b0066;
+    margin-top:20px;
+}
+#theme, #celsius{
+    width:150px;
+    height:40px;
+    font-size:16px;
+    border-radius:5px;
+    border:none;
+    margin-right:0px;
+    background-color:darkblue;
+    color:white;
+}
